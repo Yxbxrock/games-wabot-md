@@ -7,7 +7,7 @@ let handler = async (m, { conn }) => {
   conn.sendFile(m.chat, json.url, '', 'sange kok sama kartun', m, 0, { thumbnail: Buffer.alloc(0) })
 }
 handler.help = ['waifunsfw']
-handler.tags = ['nsfw']
+handler.tags = ['internet']
 handler.command = /^(waifunsfw)$/i
 
 handler.limit = true
