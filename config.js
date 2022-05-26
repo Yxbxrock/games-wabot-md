@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['6281390658325'],
+  ['6282365089294'],
   ['6282256115584'],
   ['6281319944687', 'BG', true]
   // [number, dia creator/owner?, dia developer?]
@@ -30,7 +30,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'wa.me/6285713964963'
+global.packname = 'Created By'
 global.author = 'Metro Bot'
 
 global.multiplier = 69 // The higher, The harder levelup
