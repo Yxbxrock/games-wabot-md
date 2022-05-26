@@ -14,7 +14,7 @@ if (jumlah && isNaN(jumlah)) throw 'Jumlah harus berupa angka!'
   }
 }
 handler.help = ['spamwa nomor|pesan|jumlah']
-handler.tags = ['premium']
+handler.tags = ['Tools']
 handler.command = /^spam(wa)?$/i
 
 handler.premium = true
